@@ -10,8 +10,12 @@ const AboutSectionWrapper = styled.section`
   border-top: 5px solid #1b1b1b;
   color: #fff;
   scroll-margin-top: 100px;
-  width: 100%;
   flex-direction: column;
+
+  @media (max-width: 900px) {
+    width: auto;
+    padding: 2rem 0.5rem;
+  }
 `;
 
 const AboutImage = styled.img`
@@ -19,16 +23,31 @@ const AboutImage = styled.img`
   height: auto;
   border-radius: 10px;
   box-shadow: 0 4px 24px rgba(0,0,0,0.3);
+
+  @media (max-width: 900px) {
+    width: 180px;
+  }
+  @media (max-width: 600px) {
+    width: 120px;
+  }
 `;
 
 const AboutContent = styled.div`
   max-width: 500px;
   text-align: left;
+
+  @media (max-width: 900px) {
+    max-width: 90vw;
+    text-align: center;
+  }
 `;
 
 const AboutTitle = styled.h2`
   font-size: 2rem;
   margin-bottom: 1rem;
+  @media (max-width: 900px) {
+    margin-top: 0;
+  }
 `;
 
 const AboutText = styled.p`
@@ -42,6 +61,9 @@ const AboutSubtitle = styled.div`
   margin-top: 0.7rem;
   margin-bottom: 2rem;
   text-align: center;
+  @media (max-width: 900px) {
+    margin-bottom: 0;
+  }
 `;
 
 const AboutImageWrapper = styled.div`
@@ -50,12 +72,21 @@ const AboutImageWrapper = styled.div`
   align-items: center;
   justify-content: center;
   margin-right: 4rem;
+  @media (max-width: 900px) {
+    margin-right: 0;
+  }
 `;
 
 const AboutFounderWrapper = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+
+  @media (max-width: 900px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
 `;
 
 const CorePrincipalsSection = styled.div`
@@ -71,6 +102,15 @@ const CorePrincipalsGrid = styled.div`
   gap: 2.5rem;
   max-width: 1280px;
   width: 100%;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 `;
 
 const PrincipalCard = styled.div`
@@ -80,6 +120,10 @@ const PrincipalCard = styled.div`
   text-align: center;
   box-shadow: 0 2px 12px rgba(0,0,0,0.2);
   color: #fff;
+  @media (max-width: 600px) {
+    max-width: 80vw;
+    margin: 0 auto;
+  }
 `;
 
 const PrincipalIcon = styled.div`

@@ -9,12 +9,25 @@ const HeroWrapper = styled.section`
   text-align: center;
   color: #fff;
   flex: 1;
+  padding: 2rem 1rem;
+
+  @media (max-width: 900px) {
+    min-height: 80vh;
+    padding: 2rem 0.5rem;
+  }
 `;
 
 const HeroImage = styled.img`
   width: 400px;
   height: auto;
   margin-bottom: 2rem;
+
+  @media (max-width: 900px) {
+    width: 220px;
+  }
+  @media (max-width: 600px) {
+    width: 140px;
+  }
 `;
 
 const HeroText = styled.p`
@@ -22,6 +35,14 @@ const HeroText = styled.p`
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
+
+  @media (max-width: 900px) {
+    font-size: 1.1rem;
+    max-width: 90vw;
+  }
+  @media (max-width: 600px) {
+    font-size: 1rem;
+  }
 `;
 
 export default function HeroSection() {
