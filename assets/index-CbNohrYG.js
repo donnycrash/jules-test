@@ -76,7 +76,7 @@ Error generating stack: `+e.message+`
   &:hover {
     color: #90cdf4;
   }
-`;function Vv(){return V.jsxs(Gv,{children:[V.jsx(Xv,{children:V.jsx(Qv,{src:"/das_solo.svg",alt:"Logo"})}),V.jsxs(Zv,{children:[V.jsx(er,{href:"#about",children:"About"}),V.jsx(er,{href:"#shop",children:"Shop"}),V.jsx(er,{href:"#sponsorship",children:"Sponsorship"})]})]})}const Lv=Et.div`
+`;function Vv(){return V.jsxs(Gv,{children:[V.jsx(Xv,{children:V.jsx(Qv,{src:"/jules-test/das_solo.svg",alt:"Logo"})}),V.jsxs(Zv,{children:[V.jsx(er,{href:"#about",children:"About"}),V.jsx(er,{href:"#shop",children:"Shop"}),V.jsx(er,{href:"#sponsorship",children:"Sponsorship"})]})]})}const Lv=Et.div`
   position: fixed;
   top: 0;
   left: 0;
@@ -100,7 +100,7 @@ Error generating stack: `+e.message+`
   top: 0;
   left: 0;
   z-index: 0;
-`;function Jv(){return V.jsxs(Lv,{children:[V.jsxs(wv,{autoPlay:!0,loop:!0,muted:!0,playsInline:!0,children:[V.jsx("source",{src:"/0617.mov",type:"video/mp4"}),"Your browser does not support the video tag."]}),V.jsx(Kv,{})]})}const $v=Et.section`
+`;function Jv(){return V.jsxs(Lv,{children:[V.jsxs(wv,{autoPlay:!0,loop:!0,muted:!0,playsInline:!0,children:[V.jsx("source",{src:"/jules-test/0617.mov",type:"video/mp4"}),"Your browser does not support the video tag."]}),V.jsx(Kv,{})]})}const $v=Et.section`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -118,7 +118,7 @@ Error generating stack: `+e.message+`
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
-`;function Fv(){return V.jsxs($v,{children:[V.jsx(Wv,{src:"/dassie.svg",alt:"Dassie"}),V.jsx(kv,{children:"From bone-dry dust to surprise creek crossings, our wax keeps your chain smooth, silent, and fast. Tested on rugged trails and made for riders who don’t turn back when the path gets rough."})]})}const Iv=Et.section`
+`;function Fv(){return V.jsxs($v,{children:[V.jsx(Wv,{src:"/jules-test/dassie.svg",alt:"Dassie"}),V.jsx(kv,{children:"From bone-dry dust to surprise creek crossings, our wax keeps your chain smooth, silent, and fast. Tested on rugged trails and made for riders who don’t turn back when the path gets rough."})]})}const Iv=Et.section`
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -188,7 +188,7 @@ Error generating stack: `+e.message+`
 `,vi=Et.p`
   font-size: 1rem;
   color: #e0e0e0;
-`;function fm(){return V.jsx(V.Fragment,{children:V.jsxs(Iv,{id:"about",children:[V.jsxs(nm,{children:[V.jsxs(um,{children:[V.jsx(Pv,{src:"/founder.png",alt:"About"}),V.jsx(am,{children:"Founder: DonnyCrash aka The Dassie"})]}),V.jsxs(tm,{children:[V.jsx(lm,{children:"About Us"}),V.jsx(em,{children:"At DASSIE, we’re more than just a chain wax brand — we’re part of the ride. From the grit of long climbs to the calm after the chaos! DASSIE, represents resilience and adaptability—qualities we value in everything we do. Learn more about our journey and what drives us."})]})]}),V.jsx(im,{children:V.jsxs(cm,{children:[V.jsxs(di,{children:[V.jsx(hi,{children:"🌄"}),V.jsx(yi,{children:"Resilience"}),V.jsx(vi,{children:"Inspired by the dassie — small but tough — we believe performance thrives when conditions get rough. Our wax is engineered to endure what gravel throws at you: dust, distance, and the unexpected. We build for longevity, just like the rides that test your limits."})]}),V.jsxs(di,{children:[V.jsx(hi,{children:"🤝"}),V.jsx(yi,{children:"Community"}),V.jsx(vi,{children:"We ride better together. Whether it’s a sunrise solo spin or a dusty group grind, DASSIE is rooted in the shared love of adventure. We’re building a brand that grows with its riders — from seasoned racers to weekend wanderers."})]}),V.jsxs(di,{children:[V.jsx(hi,{children:"💡"}),V.jsx(yi,{children:"Innovation"}),V.jsx(vi,{children:"Chain wax isn’t just chemistry — it’s craft. We blend high-performance science with on-trail testing to create formulas that stay clean, fast, and resilient. We're always tinkering, tweaking, and testing — because marginal gains are made in the details."})]}),V.jsxs(di,{children:[V.jsx(hi,{children:"🌱"}),V.jsx(yi,{children:"Growth"}),V.jsx(vi,{children:"Like every ride that starts with a single pedal stroke, DASSIE is a journey. We’re here to evolve — with better products, deeper connections, and a bigger vision for what gravel riding can be."})]})]})})]})})}const rm=Et.div`
+`;function fm(){return V.jsx(V.Fragment,{children:V.jsxs(Iv,{id:"about",children:[V.jsxs(nm,{children:[V.jsxs(um,{children:[V.jsx(Pv,{src:"/jules-test/founder.png",alt:"About"}),V.jsx(am,{children:"Founder: DonnyCrash aka The Dassie"})]}),V.jsxs(tm,{children:[V.jsx(lm,{children:"About Us"}),V.jsx(em,{children:"At DASSIE, we’re more than just a chain wax brand — we’re part of the ride. From the grit of long climbs to the calm after the chaos! DASSIE, represents resilience and adaptability—qualities we value in everything we do. Learn more about our journey and what drives us."})]})]}),V.jsx(im,{children:V.jsxs(cm,{children:[V.jsxs(di,{children:[V.jsx(hi,{children:"🌄"}),V.jsx(yi,{children:"Resilience"}),V.jsx(vi,{children:"Inspired by the dassie — small but tough — we believe performance thrives when conditions get rough. Our wax is engineered to endure what gravel throws at you: dust, distance, and the unexpected. We build for longevity, just like the rides that test your limits."})]}),V.jsxs(di,{children:[V.jsx(hi,{children:"🤝"}),V.jsx(yi,{children:"Community"}),V.jsx(vi,{children:"We ride better together. Whether it’s a sunrise solo spin or a dusty group grind, DASSIE is rooted in the shared love of adventure. We’re building a brand that grows with its riders — from seasoned racers to weekend wanderers."})]}),V.jsxs(di,{children:[V.jsx(hi,{children:"💡"}),V.jsx(yi,{children:"Innovation"}),V.jsx(vi,{children:"Chain wax isn’t just chemistry — it’s craft. We blend high-performance science with on-trail testing to create formulas that stay clean, fast, and resilient. We're always tinkering, tweaking, and testing — because marginal gains are made in the details."})]}),V.jsxs(di,{children:[V.jsx(hi,{children:"🌱"}),V.jsx(yi,{children:"Growth"}),V.jsx(vi,{children:"Like every ride that starts with a single pedal stroke, DASSIE is a journey. We’re here to evolve — with better products, deeper connections, and a bigger vision for what gravel riding can be."})]})]})})]})})}const rm=Et.div`
   position: relative;
   z-index: 1;
 `;function sm(){return V.jsxs(V.Fragment,{children:[V.jsx(Vv,{}),V.jsx(Jv,{}),V.jsxs(rm,{children:[V.jsx(Fv,{}),V.jsx(fm,{})]})]})}Yy.createRoot(document.getElementById("root")).render(V.jsx(_i.StrictMode,{children:V.jsx(sm,{})}));
