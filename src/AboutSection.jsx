@@ -104,7 +104,7 @@ export default function AboutSection() {
       <AboutSectionWrapper id="about">
         <AboutFounderWrapper>
           <AboutImageWrapper>
-            <AboutImage src="/founder.png" alt="About" />
+            <AboutImage src="/jules-test/founder.png" alt="About" />
             <AboutSubtitle>Founder: DonnyCrash aka The Dassie</AboutSubtitle>
           </AboutImageWrapper>
           <AboutContent>

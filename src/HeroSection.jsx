@@ -27,7 +27,7 @@ const HeroText = styled.p`
 export default function HeroSection() {
   return (
     <HeroWrapper>
-      <HeroImage src="/dassie.svg" alt="Dassie" />
+      <HeroImage src="/jules-test/dassie.svg" alt="Dassie" />
       <HeroText>
         From bone-dry dust to surprise creek crossings, our wax keeps your chain smooth, silent, and fast.
         Tested on rugged trails and made for riders who don’t turn back when the path gets rough.

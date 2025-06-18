@@ -43,7 +43,7 @@ export default function Header() {
   return (
     <HeaderContainer>
       <Logo>
-        <LogoImg src="/das_solo.svg" alt="Logo" />
+        <LogoImg src="/jules-test/das_solo.svg" alt="Logo" />
       </Logo>
       <Nav>
         <NavLink href="#about">About</NavLink>

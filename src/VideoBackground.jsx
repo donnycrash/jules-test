@@ -34,7 +34,7 @@ export default function VideoBackground() {
   return (
     <VideoBackgroundWrapper>
       <StyledVideo autoPlay loop muted playsInline>
-        <source src="/0617.mov" type="video/mp4" />
+        <source src="/jules-test/0617.mov" type="video/mp4" />
         Your browser does not support the video tag.
       </StyledVideo>
       <GradientOverlay />
