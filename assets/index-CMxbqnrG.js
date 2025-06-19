@@ -172,7 +172,7 @@ Error generating stack: `+e.message+`
   @media (max-width: 900px) {
     height: 100svh;
   }
-`;function hm(){return C.jsxs(sm,{children:[C.jsxs(dm,{autoPlay:!0,loop:!0,muted:!0,playsInline:!0,children:[C.jsx("source",{src:"/jules-test/0617.mov",type:"video/mp4"}),"Your browser does not support the video tag."]}),C.jsx(om,{})]})}const ym=dt.section`
+`;function hm(){return C.jsxs(sm,{children:[C.jsxs(dm,{autoPlay:!0,loop:!0,muted:!0,playsInline:!0,children:[C.jsx("source",{src:"/jules-test/newexport.mov",type:"video/mp4"}),"Your browser does not support the video tag."]}),C.jsx(om,{})]})}const ym=dt.section`
   min-height: 100vh;
   display: flex;
   flex-direction: column;
