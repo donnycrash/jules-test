@@ -12,7 +12,7 @@ const HeaderContainer = styled.header`
   justify-content: space-between;
   padding: 1.5rem 3rem;
   z-index: 10;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0);
 
   @media (max-width: 900px) {
     flex-direction: column;
