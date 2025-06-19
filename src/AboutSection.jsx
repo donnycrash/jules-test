@@ -1,4 +1,6 @@
 import styled from 'styled-components'
+import { useEffect } from 'react'
+import { Statsig } from '@statsig/js-client'
 
 const AboutSectionWrapper = styled.section`
   min-height: 100vh;
@@ -143,6 +145,10 @@ const PrincipalText = styled.p`
 `;
 
 export default function AboutSection() {
+  useEffect(() => {
+    Statsig.logEvent('about_section_viewed');
+  }, []); // Empty dependency array ensures this runs only on mount
+
   return (
     <>
       <AboutSectionWrapper id="about">

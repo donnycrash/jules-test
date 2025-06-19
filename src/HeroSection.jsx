@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import { useGate } from '@statsig/react-bindings'
 
 const HeroWrapper = styled.section`
   min-height: 100vh;
@@ -45,7 +46,32 @@ const HeroText = styled.p`
   }
 `;
 
+const HeroButton = styled.button`
+  background-color: #f0b90b;
+  color: #1e2026;
+  border: none;
+  padding: 0.8rem 2rem;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 2rem;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #e0ac0a;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0.7rem 1.5rem;
+    font-size: 1rem;
+  }
+`;
+
 export default function HeroSection() {
+  const { value: showNewButtonText } = useGate('hero_button_experiment');
+  const buttonText = showNewButtonText ? "New Button Text" : "Learn More";
+
   return (
     <HeroWrapper>
       <HeroImage src="/jules-test/dassie.svg" alt="Dassie" />
@@ -53,6 +79,7 @@ export default function HeroSection() {
         From bone-dry dust to surprise creek crossings, our wax keeps your chain smooth, silent, and fast.
         Tested on rugged trails and made for riders who don’t turn back when the path gets rough.
       </HeroText>
+      <HeroButton>{buttonText}</HeroButton>
     </HeroWrapper>
   )
 }
