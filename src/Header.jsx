@@ -105,8 +105,8 @@ const DesktopNav = styled(Nav)`
 `;
 
 const StyledHeaderContainer = styled(HeaderContainer)`
-  background: ${({ scrolled, menuOpen }) =>
-    menuOpen || scrolled ? 'rgba(0,0,0,0.98)' : 'rgba(0,0,0,0)'};
+  background: ${({ $scrolled, $menuOpen }) =>
+    $menuOpen || $scrolled ? 'rgba(0,0,0,0.98)' : 'rgba(0,0,0,0.1)'};
   transition: all 0.3s;
 `;
 
@@ -138,7 +138,7 @@ export default function Header() {
   }, [menuOpen]);
 
   return (
-    <StyledHeaderContainer scrolled={scrolled} menuOpen={menuOpen}>
+    <StyledHeaderContainer $scrolled={scrolled} $menuOpen={menuOpen}>
       <Logo>
         <LogoImg src="/jules-test/das_solo.svg" alt="Logo" />
       </Logo>
