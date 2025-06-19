@@ -1,5 +1,7 @@
 # AI Micro Site Test
 
+[![Deploy to GitHub Pages](https://github.com/donnycrash/jules-test/actions/workflows/deploy.yml/badge.svg)](https://github.com/donnycrash/jules-test/actions/workflows/deploy.yml)
+
 This is a test to see how well AI can generate an entire micro site—including layout, design, and written content—using only natural language instructions. The goal is to evaluate the capabilities of modern AI tools in automating web development tasks, from scaffolding a React/Vite project to producing production-ready UI components, copy, and deployment configuration.
 
 Additionally, this project serves as a benchmark to compare the performance and usability of Google's new agent Jules against other AI coding assistants. By building a real-world site from scratch, we can assess strengths, weaknesses, and the overall developer experience provided by these tools.
