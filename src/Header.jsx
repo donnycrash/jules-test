@@ -12,7 +12,7 @@ const HeaderContainer = styled.header`
   justify-content: space-between;
   padding: 1.5rem 3rem;
   z-index: 10;
-  background: rgba(0,0,0,0.1);
+  background: rgba(0,0,0,0);
 
   @media (max-width: 900px) {
     flex-direction: column;
@@ -106,7 +106,7 @@ const DesktopNav = styled(Nav)`
 
 const StyledHeaderContainer = styled(HeaderContainer)`
   background: ${({ scrolled, menuOpen }) =>
-    menuOpen || scrolled ? 'rgba(0,0,0,0.98)' : 'rgba(0,0,0,0.1)'};
+    menuOpen || scrolled ? 'rgba(0,0,0,0.98)' : 'rgba(0,0,0,0)'};
   transition: all 0.3s;
 `;
 
